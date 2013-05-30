@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cclhzgs1.s 			page 1
+ARM GAS  /tmp/ccWjIoRv.s 			page 1
 
 
    1              		.syntax unified
@@ -30,21 +30,21 @@ ARM GAS  /tmp/cclhzgs1.s 			page 1
   27 000b 01       		.uleb128 0x1
   28 000c 2E000000 		.4byte	.LASF12
   29 0010 01       		.byte	0x1
-  30 0011 B3000000 		.4byte	.LASF13
-  31 0015 ED000000 		.4byte	.LASF14
+  30 0011 DF000000 		.4byte	.LASF13
+  31 0015 77000000 		.4byte	.LASF14
   32 0019 00000000 		.4byte	.Ldebug_line0
   33 001d 02       		.uleb128 0x2
   34 001e 01       		.byte	0x1
   35 001f 06       		.byte	0x6
-  36 0020 22010000 		.4byte	.LASF0
+  36 0020 26010000 		.4byte	.LASF0
   37 0024 02       		.uleb128 0x2
   38 0025 01       		.byte	0x1
   39 0026 08       		.byte	0x8
-  40 0027 A0000000 		.4byte	.LASF1
+  40 0027 CC000000 		.4byte	.LASF1
   41 002b 02       		.uleb128 0x2
   42 002c 02       		.byte	0x2
   43 002d 05       		.byte	0x5
-  44 002e 2E010000 		.4byte	.LASF2
+  44 002e 32010000 		.4byte	.LASF2
   45 0032 02       		.uleb128 0x2
   46 0033 02       		.byte	0x2
   47 0034 07       		.byte	0x7
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cclhzgs1.s 			page 1
   55 0042 07       		.byte	0x7
   56 0043 21000000 		.4byte	.LASF4
   57 0047 02       		.uleb128 0x2
-ARM GAS  /tmp/cclhzgs1.s 			page 2
+ARM GAS  /tmp/ccWjIoRv.s 			page 2
 
 
   58 0048 08       		.byte	0x8
@@ -67,36 +67,36 @@ ARM GAS  /tmp/cclhzgs1.s 			page 1
   61 004e 02       		.uleb128 0x2
   62 004f 08       		.byte	0x8
   63 0050 07       		.byte	0x7
-  64 0051 89000000 		.4byte	.LASF6
+  64 0051 B5000000 		.4byte	.LASF6
   65 0055 02       		.uleb128 0x2
   66 0056 04       		.byte	0x4
   67 0057 05       		.byte	0x5
-  68 0058 DE000000 		.4byte	.LASF7
+  68 0058 0A010000 		.4byte	.LASF7
   69 005c 02       		.uleb128 0x2
   70 005d 04       		.byte	0x4
   71 005e 07       		.byte	0x7
-  72 005f 40010000 		.4byte	.LASF8
+  72 005f 44010000 		.4byte	.LASF8
   73 0063 02       		.uleb128 0x2
   74 0064 04       		.byte	0x4
   75 0065 07       		.byte	0x7
-  76 0066 77000000 		.4byte	.LASF9
+  76 0066 A3000000 		.4byte	.LASF9
   77 006a 02       		.uleb128 0x2
   78 006b 01       		.byte	0x1
   79 006c 08       		.byte	0x8
-  80 006d AE000000 		.4byte	.LASF10
+  80 006d DA000000 		.4byte	.LASF10
   81 0071 04       		.uleb128 0x4
-  82 0072 38010000 		.4byte	.LASF15
+  82 0072 3C010000 		.4byte	.LASF15
   83 0076 01       		.byte	0x1
   84 0077 4F       		.byte	0x4f
   85 0078 55000000 		.4byte	0x55
   86 007c 02       		.uleb128 0x2
   87 007d 01       		.byte	0x1
   88 007e 02       		.byte	0x2
-  89 007f E7000000 		.4byte	.LASF11
+  89 007f 13010000 		.4byte	.LASF11
   90 0083 05       		.uleb128 0x5
   91 0084 71000000 		.4byte	0x71
   92 0088 06       		.uleb128 0x6
-  93 0089 15010000 		.4byte	.LASF16
+  93 0089 19010000 		.4byte	.LASF16
   94 008d 02       		.byte	0x2
   95 008e 9806     		.2byte	0x698
   96 0090 83000000 		.4byte	0x83
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cclhzgs1.s 			page 1
  112 000a 0E       		.uleb128 0xe
  113 000b 10       		.uleb128 0x10
  114 000c 06       		.uleb128 0x6
-ARM GAS  /tmp/cclhzgs1.s 			page 3
+ARM GAS  /tmp/ccWjIoRv.s 			page 3
 
 
  115 000d 00       		.byte	0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cclhzgs1.s 			page 1
  169 0043 13       		.uleb128 0x13
  170 0044 3F       		.uleb128 0x3f
  171 0045 0C       		.uleb128 0xc
-ARM GAS  /tmp/cclhzgs1.s 			page 4
+ARM GAS  /tmp/ccWjIoRv.s 			page 4
 
 
  172 0046 3C       		.uleb128 0x3c
@@ -230,70 +230,70 @@ ARM GAS  /tmp/cclhzgs1.s 			page 1
  198      6973696F 
  198      6E203139 
  198      36363135 
- 199              	.LASF9:
- 200 0077 6C6F6E67 		.ascii	"long unsigned int\000"
- 200      20756E73 
- 200      69676E65 
- 200      6420696E 
- 200      7400
- 201              	.LASF6:
- 202 0089 6C6F6E67 		.ascii	"long long unsigned int\000"
-ARM GAS  /tmp/cclhzgs1.s 			page 5
+ 199              	.LASF14:
+ 200 0077 2F686F6D 		.ascii	"/home/thiago/Sources/STM32/STM32F4-Template\000"
+ 200      652F7468 
+ 200      6961676F 
+ 200      2F536F75 
+ 200      72636573 
+ 201              	.LASF9:
+ 202 00a3 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  /tmp/ccWjIoRv.s 			page 5
 
 
- 202      206C6F6E 
- 202      6720756E 
- 202      7369676E 
- 202      65642069 
- 203              	.LASF1:
- 204 00a0 756E7369 		.ascii	"unsigned char\000"
- 204      676E6564 
- 204      20636861 
- 204      7200
- 205              	.LASF10:
- 206 00ae 63686172 		.ascii	"char\000"
- 206      00
- 207              	.LASF13:
- 208 00b3 2E2F4368 		.ascii	"./ChibiOS/os/hal/platforms/STM32/sdc_lld.c\000"
- 208      6962694F 
- 208      532F6F73 
- 208      2F68616C 
- 208      2F706C61 
- 209              	.LASF7:
- 210 00de 6C6F6E67 		.ascii	"long int\000"
- 210      20696E74 
- 210      00
- 211              	.LASF11:
- 212 00e7 5F426F6F 		.ascii	"_Bool\000"
- 212      6C00
- 213              	.LASF14:
- 214 00ed 2F686F6D 		.ascii	"/home/thiago/workspace/STM32F4-Template\000"
- 214      652F7468 
- 214      6961676F 
- 214      2F776F72 
- 214      6B737061 
+ 202      20756E73 
+ 202      69676E65 
+ 202      6420696E 
+ 202      7400
+ 203              	.LASF6:
+ 204 00b5 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 204      206C6F6E 
+ 204      6720756E 
+ 204      7369676E 
+ 204      65642069 
+ 205              	.LASF1:
+ 206 00cc 756E7369 		.ascii	"unsigned char\000"
+ 206      676E6564 
+ 206      20636861 
+ 206      7200
+ 207              	.LASF10:
+ 208 00da 63686172 		.ascii	"char\000"
+ 208      00
+ 209              	.LASF13:
+ 210 00df 2E2F4368 		.ascii	"./ChibiOS/os/hal/platforms/STM32/sdc_lld.c\000"
+ 210      6962694F 
+ 210      532F6F73 
+ 210      2F68616C 
+ 210      2F706C61 
+ 211              	.LASF7:
+ 212 010a 6C6F6E67 		.ascii	"long int\000"
+ 212      20696E74 
+ 212      00
+ 213              	.LASF11:
+ 214 0113 5F426F6F 		.ascii	"_Bool\000"
+ 214      6C00
  215              	.LASF16:
- 216 0115 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 216 0119 49544D5F 		.ascii	"ITM_RxBuffer\000"
  216      52784275 
  216      66666572 
  216      00
  217              	.LASF0:
- 218 0122 7369676E 		.ascii	"signed char\000"
+ 218 0126 7369676E 		.ascii	"signed char\000"
  218      65642063 
  218      68617200 
  219              	.LASF2:
- 220 012e 73686F72 		.ascii	"short int\000"
+ 220 0132 73686F72 		.ascii	"short int\000"
  220      7420696E 
  220      7400
  221              	.LASF15:
- 222 0138 696E7433 		.ascii	"int32_t\000"
+ 222 013c 696E7433 		.ascii	"int32_t\000"
  222      325F7400 
  223              	.LASF8:
- 224 0140 73697A65 		.ascii	"sizetype\000"
+ 224 0144 73697A65 		.ascii	"sizetype\000"
  224      74797065 
  224      00
  225              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.3 20130312 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/cclhzgs1.s 			page 6
+ARM GAS  /tmp/ccWjIoRv.s 			page 6
 
 
 DEFINED SYMBOLS

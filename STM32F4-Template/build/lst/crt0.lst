@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccPCRoQT.s 			page 1
+ARM GAS  /tmp/ccK1Bihk.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
   52              		.cfi_endproc
   53              	.LFE1:
   54              		.size	__late_init, .-__late_init
-ARM GAS  /tmp/ccPCRoQT.s 			page 2
+ARM GAS  /tmp/ccK1Bihk.s 			page 2
 
 
   55 0002 00BFAFF3 		.section	.text._default_exit,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  103 0008 0223     		movs	r3, #2
  104              	@ 289 "./ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
  105 000a 83F31488 		msr     CONTROL, r3
-ARM GAS  /tmp/ccPCRoQT.s 			page 3
+ARM GAS  /tmp/ccK1Bihk.s 			page 3
 
 
  106              	@ 0 "" 2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  160              		.loc 1 261 0
  161 0052 5449     		ldr	r1, .L68+16
  162 0054 041D     		adds	r4, r0, #4
-ARM GAS  /tmp/ccPCRoQT.s 			page 4
+ARM GAS  /tmp/ccK1Bihk.s 			page 4
 
 
  163 0056 0A1B     		subs	r2, r1, r4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  217 00a4 0D60     		str	r5, [r1, #0]
  218              	.LVL7:
  219 00a6 C2F38002 		ubfx	r2, r2, #2, #1
-ARM GAS  /tmp/ccPCRoQT.s 			page 5
+ARM GAS  /tmp/ccK1Bihk.s 			page 5
 
 
  220              		.loc 1 312 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  274 00ee 2346     		mov	r3, r4
  275 00f0 2160     		str	r1, [r4, #0]
  276 00f2 05D0     		beq	.L15
-ARM GAS  /tmp/ccPCRoQT.s 			page 6
+ARM GAS  /tmp/ccK1Bihk.s 			page 6
 
 
  277              	.L19:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  331 013a 0234     		adds	r4, r4, #2
  332 013c A868     		ldr	r0, [r5, #8]
  333 013e 2E1D     		adds	r6, r5, #4
-ARM GAS  /tmp/ccPCRoQT.s 			page 7
+ARM GAS  /tmp/ccK1Bihk.s 			page 7
 
 
  334 0140 8047     		blx	r0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  388              	.LVL19:
  389 018a 0835     		adds	r5, r5, #8
  390              		.loc 1 343 0
-ARM GAS  /tmp/ccPCRoQT.s 			page 8
+ARM GAS  /tmp/ccK1Bihk.s 			page 8
 
 
  391 018c BC42     		cmp	r4, r7
@@ -459,10 +459,10 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  426 0006 00000000 		.4byte	.Ldebug_abbrev0
  427 000a 04       		.byte	0x4
  428 000b 01       		.uleb128 0x1
- 429 000c 8B010000 		.4byte	.LASF29
+ 429 000c 8F010000 		.4byte	.LASF29
  430 0010 01       		.byte	0x1
- 431 0011 D8000000 		.4byte	.LASF30
- 432 0015 6B000000 		.4byte	.LASF31
+ 431 0011 DC000000 		.4byte	.LASF30
+ 432 0015 51000000 		.4byte	.LASF31
  433 0019 B8000000 		.4byte	.Ldebug_ranges0+0xb8
  434 001d 00000000 		.4byte	0
  435 0021 00000000 		.4byte	0
@@ -470,48 +470,48 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  437 0029 02       		.uleb128 0x2
  438 002a 01       		.byte	0x1
  439 002b 06       		.byte	0x6
- 440 002c F4010000 		.4byte	.LASF0
+ 440 002c F8010000 		.4byte	.LASF0
  441 0030 03       		.uleb128 0x3
- 442 0031 40010000 		.4byte	.LASF5
+ 442 0031 44010000 		.4byte	.LASF5
  443 0035 02       		.byte	0x2
  444 0036 2A       		.byte	0x2a
  445 0037 3B000000 		.4byte	0x3b
  446 003b 02       		.uleb128 0x2
  447 003c 01       		.byte	0x1
-ARM GAS  /tmp/ccPCRoQT.s 			page 9
+ARM GAS  /tmp/ccK1Bihk.s 			page 9
 
 
  448 003d 08       		.byte	0x8
- 449 003e 51000000 		.4byte	.LASF1
+ 449 003e 7D000000 		.4byte	.LASF1
  450 0042 02       		.uleb128 0x2
  451 0043 02       		.byte	0x2
  452 0044 05       		.byte	0x5
- 453 0045 81010000 		.4byte	.LASF2
+ 453 0045 85010000 		.4byte	.LASF2
  454 0049 02       		.uleb128 0x2
  455 004a 02       		.byte	0x2
  456 004b 07       		.byte	0x7
- 457 004c B2000000 		.4byte	.LASF3
+ 457 004c B6000000 		.4byte	.LASF3
  458 0050 02       		.uleb128 0x2
  459 0051 04       		.byte	0x4
  460 0052 05       		.byte	0x5
- 461 0053 E5010000 		.4byte	.LASF4
+ 461 0053 E9010000 		.4byte	.LASF4
  462 0057 03       		.uleb128 0x3
- 463 0058 DC010000 		.4byte	.LASF6
+ 463 0058 E0010000 		.4byte	.LASF6
  464 005c 02       		.byte	0x2
  465 005d 50       		.byte	0x50
  466 005e 62000000 		.4byte	0x62
  467 0062 02       		.uleb128 0x2
  468 0063 04       		.byte	0x4
  469 0064 07       		.byte	0x7
- 470 0065 93000000 		.4byte	.LASF7
+ 470 0065 97000000 		.4byte	.LASF7
  471 0069 02       		.uleb128 0x2
  472 006a 08       		.byte	0x8
  473 006b 05       		.byte	0x5
- 474 006c 5F010000 		.4byte	.LASF8
+ 474 006c 63010000 		.4byte	.LASF8
  475 0070 02       		.uleb128 0x2
  476 0071 08       		.byte	0x8
  477 0072 07       		.byte	0x7
- 478 0073 29010000 		.4byte	.LASF9
+ 478 0073 2D010000 		.4byte	.LASF9
  479 0077 04       		.uleb128 0x4
  480 0078 04       		.byte	0x4
  481 0079 05       		.byte	0x5
@@ -519,9 +519,9 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  483 007e 02       		.uleb128 0x2
  484 007f 04       		.byte	0x4
  485 0080 07       		.byte	0x7
- 486 0081 1C010000 		.4byte	.LASF10
+ 486 0081 20010000 		.4byte	.LASF10
  487 0085 03       		.uleb128 0x3
- 488 0086 D4010000 		.4byte	.LASF11
+ 488 0086 D8010000 		.4byte	.LASF11
  489 008a 01       		.byte	0x1
  490 008b 2D       		.byte	0x2d
  491 008c 90000000 		.4byte	0x90
@@ -538,12 +538,12 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  502 00a3 05       		.uleb128 0x5
  503 00a4 04       		.byte	0x4
  504 00a5 85000000 		.4byte	0x85
-ARM GAS  /tmp/ccPCRoQT.s 			page 10
+ARM GAS  /tmp/ccK1Bihk.s 			page 10
 
 
  505 00a9 07       		.uleb128 0x7
  506 00aa 01       		.byte	0x1
- 507 00ab 52010000 		.4byte	.LASF13
+ 507 00ab 56010000 		.4byte	.LASF13
  508 00af 01       		.byte	0x1
  509 00b0 E3       		.byte	0xe3
  510 00b1 01       		.byte	0x1
@@ -555,7 +555,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  516 00bd 01       		.byte	0x1
  517 00be 07       		.uleb128 0x7
  518 00bf 01       		.byte	0x1
- 519 00c0 5F000000 		.4byte	.LASF14
+ 519 00c0 8B000000 		.4byte	.LASF14
  520 00c4 01       		.byte	0x1
  521 00c5 EF       		.byte	0xef
  522 00c6 01       		.byte	0x1
@@ -579,7 +579,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  540 00e7 01       		.byte	0x1
  541 00e8 08       		.uleb128 0x8
  542 00e9 01       		.byte	0x1
- 543 00ea A5000000 		.4byte	.LASF32
+ 543 00ea A9000000 		.4byte	.LASF32
  544 00ee 01       		.byte	0x1
  545 00ef 0501     		.2byte	0x105
  546 00f1 01       		.byte	0x1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  559 010e 01       		.byte	0x1
  560 010f 54       		.byte	0x54
  561 0110 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccPCRoQT.s 			page 11
+ARM GAS  /tmp/ccK1Bihk.s 			page 11
 
 
  562 0111 72656700 		.ascii	"reg\000"
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  616 018d EE010000 		.4byte	0x1ee
  617 0191 0C       		.uleb128 0xc
  618 0192 703200   		.ascii	"p2\000"
-ARM GAS  /tmp/ccPCRoQT.s 			page 12
+ARM GAS  /tmp/ccK1Bihk.s 			page 12
 
 
  619 0195 01       		.byte	0x1
@@ -700,14 +700,14 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  655 01ef 04       		.byte	0x4
  656 01f0 57000000 		.4byte	0x57
  657 01f4 0E       		.uleb128 0xe
- 658 01f5 6D010000 		.4byte	.LASF16
+ 658 01f5 71010000 		.4byte	.LASF16
  659 01f9 01       		.byte	0x1
  660 01fa 84       		.byte	0x84
  661 01fb 57000000 		.4byte	0x57
  662 01ff 01       		.byte	0x1
  663 0200 01       		.byte	0x1
  664 0201 0E       		.uleb128 0xe
- 665 0202 29020000 		.4byte	.LASF17
+ 665 0202 2D020000 		.4byte	.LASF17
  666 0206 01       		.byte	0x1
  667 0207 8C       		.byte	0x8c
  668 0208 57000000 		.4byte	0x57
@@ -718,27 +718,27 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  673 0213 01       		.byte	0x1
  674 0214 93       		.byte	0x93
  675 0215 57000000 		.4byte	0x57
-ARM GAS  /tmp/ccPCRoQT.s 			page 13
+ARM GAS  /tmp/ccK1Bihk.s 			page 13
 
 
  676 0219 01       		.byte	0x1
  677 021a 01       		.byte	0x1
  678 021b 0E       		.uleb128 0xe
- 679 021c 00020000 		.4byte	.LASF19
+ 679 021c 04020000 		.4byte	.LASF19
  680 0220 01       		.byte	0x1
  681 0221 9A       		.byte	0x9a
  682 0222 57000000 		.4byte	0x57
  683 0226 01       		.byte	0x1
  684 0227 01       		.byte	0x1
  685 0228 0E       		.uleb128 0xe
- 686 0229 48010000 		.4byte	.LASF20
+ 686 0229 4C010000 		.4byte	.LASF20
  687 022d 01       		.byte	0x1
  688 022e A0       		.byte	0xa0
  689 022f 57000000 		.4byte	0x57
  690 0233 01       		.byte	0x1
  691 0234 01       		.byte	0x1
  692 0235 0E       		.uleb128 0xe
- 693 0236 EE010000 		.4byte	.LASF21
+ 693 0236 F2010000 		.4byte	.LASF21
  694 023a 01       		.byte	0x1
  695 023b A6       		.byte	0xa6
  696 023c 57000000 		.4byte	0x57
@@ -759,31 +759,31 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  711 025a 01       		.byte	0x1
  712 025b 01       		.byte	0x1
  713 025c 0E       		.uleb128 0xe
- 714 025d FD000000 		.4byte	.LASF24
+ 714 025d 01010000 		.4byte	.LASF24
  715 0261 01       		.byte	0x1
  716 0262 B8       		.byte	0xb8
  717 0263 57000000 		.4byte	0x57
  718 0267 01       		.byte	0x1
  719 0268 01       		.byte	0x1
  720 0269 0E       		.uleb128 0xe
- 721 026a 16020000 		.4byte	.LASF25
+ 721 026a 1A020000 		.4byte	.LASF25
  722 026e 01       		.byte	0x1
  723 026f BE       		.byte	0xbe
  724 0270 85000000 		.4byte	0x85
  725 0274 01       		.byte	0x1
  726 0275 01       		.byte	0x1
  727 0276 0E       		.uleb128 0xe
- 728 0277 06010000 		.4byte	.LASF26
+ 728 0277 0A010000 		.4byte	.LASF26
  729 027b 01       		.byte	0x1
  730 027c C4       		.byte	0xc4
  731 027d 85000000 		.4byte	0x85
  732 0281 01       		.byte	0x1
-ARM GAS  /tmp/ccPCRoQT.s 			page 14
+ARM GAS  /tmp/ccK1Bihk.s 			page 14
 
 
  733 0282 01       		.byte	0x1
  734 0283 0E       		.uleb128 0xe
- 735 0284 C5000000 		.4byte	.LASF27
+ 735 0284 C9000000 		.4byte	.LASF27
  736 0288 01       		.byte	0x1
  737 0289 CA       		.byte	0xca
  738 028a 85000000 		.4byte	0x85
@@ -798,7 +798,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  747 029c 01       		.byte	0x1
  748 029d 0F       		.uleb128 0xf
  749 029e 01       		.byte	0x1
- 750 029f 17010000 		.4byte	.LASF33
+ 750 029f 1B010000 		.4byte	.LASF33
  751 02a3 01       		.byte	0x1
  752 02a4 D7       		.byte	0xd7
  753 02a5 01       		.byte	0x1
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  787 001d 0E       		.uleb128 0xe
  788 001e 00       		.byte	0
  789 001f 00       		.byte	0
-ARM GAS  /tmp/ccPCRoQT.s 			page 15
+ARM GAS  /tmp/ccK1Bihk.s 			page 15
 
 
  790 0020 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  844 0056 01       		.uleb128 0x1
  845 0057 12       		.uleb128 0x12
  846 0058 01       		.uleb128 0x1
-ARM GAS  /tmp/ccPCRoQT.s 			page 16
+ARM GAS  /tmp/ccK1Bihk.s 			page 16
 
 
  847 0059 40       		.uleb128 0x40
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  901 0091 05       		.uleb128 0x5
  902 0092 49       		.uleb128 0x49
  903 0093 13       		.uleb128 0x13
-ARM GAS  /tmp/ccPCRoQT.s 			page 17
+ARM GAS  /tmp/ccK1Bihk.s 			page 17
 
 
  904 0094 1C       		.uleb128 0x1c
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  958 00cc 00       		.byte	0
  959 00cd 3F       		.uleb128 0x3f
  960 00ce 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccPCRoQT.s 			page 18
+ARM GAS  /tmp/ccK1Bihk.s 			page 18
 
 
  961 00cf 03       		.uleb128 0x3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  1015 0054 00000000 		.4byte	0
  1016 0058 90000000 		.4byte	.LBB9
  1017 005c 9E000000 		.4byte	.LBE9
-ARM GAS  /tmp/ccPCRoQT.s 			page 19
+ARM GAS  /tmp/ccK1Bihk.s 			page 19
 
 
  1018 0060 C8000000 		.4byte	.LBB11
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  1060      6F636573 
  1060      735F7374 
  1060      61636B5F 
-ARM GAS  /tmp/ccPCRoQT.s 			page 20
+ARM GAS  /tmp/ccK1Bihk.s 			page 20
 
 
  1060      62617365 
@@ -1151,171 +1151,171 @@ ARM GAS  /tmp/ccPCRoQT.s 			page 1
  1064      61756C74 
  1064      5F657869 
  1064      7400
- 1065              	.LASF1:
- 1066 0051 756E7369 		.ascii	"unsigned char\000"
- 1066      676E6564 
- 1066      20636861 
- 1066      7200
- 1067              	.LASF14:
- 1068 005f 5F5F6C61 		.ascii	"__late_init\000"
- 1068      74655F69 
- 1068      6E697400 
- 1069              	.LASF31:
- 1070 006b 2F686F6D 		.ascii	"/home/thiago/workspace/STM32F4-Template\000"
- 1070      652F7468 
- 1070      6961676F 
- 1070      2F776F72 
- 1070      6B737061 
+ 1065              	.LASF31:
+ 1066 0051 2F686F6D 		.ascii	"/home/thiago/Sources/STM32/STM32F4-Template\000"
+ 1066      652F7468 
+ 1066      6961676F 
+ 1066      2F536F75 
+ 1066      72636573 
+ 1067              	.LASF1:
+ 1068 007d 756E7369 		.ascii	"unsigned char\000"
+ 1068      676E6564 
+ 1068      20636861 
+ 1068      7200
+ 1069              	.LASF14:
+ 1070 008b 5F5F6C61 		.ascii	"__late_init\000"
+ 1070      74655F69 
+ 1070      6E697400 
  1071              	.LASF7:
- 1072 0093 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1072 0097 6C6F6E67 		.ascii	"long unsigned int\000"
  1072      20756E73 
  1072      69676E65 
  1072      6420696E 
  1072      7400
  1073              	.LASF32:
- 1074 00a5 52657365 		.ascii	"ResetHandler\000"
+ 1074 00a9 52657365 		.ascii	"ResetHandler\000"
  1074      7448616E 
  1074      646C6572 
  1074      00
  1075              	.LASF3:
- 1076 00b2 73686F72 		.ascii	"short unsigned int\000"
+ 1076 00b6 73686F72 		.ascii	"short unsigned int\000"
  1076      7420756E 
  1076      7369676E 
  1076      65642069 
  1076      6E7400
  1077              	.LASF27:
- 1078 00c5 5F5F6669 		.ascii	"__fini_array_start\000"
+ 1078 00c9 5F5F6669 		.ascii	"__fini_array_start\000"
  1078      6E695F61 
  1078      72726179 
  1078      5F737461 
  1078      727400
  1079              	.LASF30:
- 1080 00d8 2E2F4368 		.ascii	"./ChibiOS/os/ports/GCC/ARMCMx/crt0.c\000"
+ 1080 00dc 2E2F4368 		.ascii	"./ChibiOS/os/ports/GCC/ARMCMx/crt0.c\000"
  1080      6962694F 
  1080      532F6F73 
  1080      2F706F72 
  1080      74732F47 
  1081              	.LASF24:
- 1082 00fd 5F627373 		.ascii	"_bss_end\000"
+ 1082 0101 5F627373 		.ascii	"_bss_end\000"
  1082      5F656E64 
-ARM GAS  /tmp/ccPCRoQT.s 			page 21
+ARM GAS  /tmp/ccK1Bihk.s 			page 21
 
 
  1082      00
  1083              	.LASF26:
- 1084 0106 5F5F696E 		.ascii	"__init_array_end\000"
+ 1084 010a 5F5F696E 		.ascii	"__init_array_end\000"
  1084      69745F61 
  1084      72726179 
  1084      5F656E64 
  1084      00
  1085              	.LASF33:
- 1086 0117 6D61696E 		.ascii	"main\000"
+ 1086 011b 6D61696E 		.ascii	"main\000"
  1086      00
  1087              	.LASF10:
- 1088 011c 756E7369 		.ascii	"unsigned int\000"
+ 1088 0120 756E7369 		.ascii	"unsigned int\000"
  1088      676E6564 
  1088      20696E74 
  1088      00
  1089              	.LASF9:
- 1090 0129 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1090 012d 6C6F6E67 		.ascii	"long long unsigned int\000"
  1090      206C6F6E 
  1090      6720756E 
  1090      7369676E 
  1090      65642069 
  1091              	.LASF5:
- 1092 0140 75696E74 		.ascii	"uint8_t\000"
+ 1092 0144 75696E74 		.ascii	"uint8_t\000"
  1092      385F7400 
  1093              	.LASF20:
- 1094 0148 5F746578 		.ascii	"_textdata\000"
+ 1094 014c 5F746578 		.ascii	"_textdata\000"
  1094      74646174 
  1094      6100
  1095              	.LASF13:
- 1096 0152 5F5F6561 		.ascii	"__early_init\000"
+ 1096 0156 5F5F6561 		.ascii	"__early_init\000"
  1096      726C795F 
  1096      696E6974 
  1096      00
  1097              	.LASF8:
- 1098 015f 6C6F6E67 		.ascii	"long long int\000"
+ 1098 0163 6C6F6E67 		.ascii	"long long int\000"
  1098      206C6F6E 
  1098      6720696E 
  1098      7400
  1099              	.LASF16:
- 1100 016d 5F5F6D61 		.ascii	"__main_stack_base__\000"
+ 1100 0171 5F5F6D61 		.ascii	"__main_stack_base__\000"
  1100      696E5F73 
  1100      7461636B 
  1100      5F626173 
  1100      655F5F00 
  1101              	.LASF2:
- 1102 0181 73686F72 		.ascii	"short int\000"
+ 1102 0185 73686F72 		.ascii	"short int\000"
  1102      7420696E 
  1102      7400
  1103              	.LASF29:
- 1104 018b 474E5520 		.ascii	"GNU C 4.7.3 20130312 (release) [ARM/embedded-4_7-br"
+ 1104 018f 474E5520 		.ascii	"GNU C 4.7.3 20130312 (release) [ARM/embedded-4_7-br"
  1104      4320342E 
  1104      372E3320 
  1104      32303133 
  1104      30333132 
- 1105 01be 616E6368 		.ascii	"anch revision 196615]\000"
+ 1105 01c2 616E6368 		.ascii	"anch revision 196615]\000"
  1105      20726576 
  1105      6973696F 
-ARM GAS  /tmp/ccPCRoQT.s 			page 22
+ARM GAS  /tmp/ccK1Bihk.s 			page 22
 
 
  1105      6E203139 
  1105      36363135 
  1106              	.LASF11:
- 1107 01d4 66756E63 		.ascii	"funcp_t\000"
+ 1107 01d8 66756E63 		.ascii	"funcp_t\000"
  1107      705F7400 
  1108              	.LASF6:
- 1109 01dc 75696E74 		.ascii	"uint32_t\000"
+ 1109 01e0 75696E74 		.ascii	"uint32_t\000"
  1109      33325F74 
  1109      00
  1110              	.LASF4:
- 1111 01e5 6C6F6E67 		.ascii	"long int\000"
+ 1111 01e9 6C6F6E67 		.ascii	"long int\000"
  1111      20696E74 
  1111      00
  1112              	.LASF21:
- 1113 01ee 5F646174 		.ascii	"_data\000"
+ 1113 01f2 5F646174 		.ascii	"_data\000"
  1113      6100
  1114              	.LASF0:
- 1115 01f4 7369676E 		.ascii	"signed char\000"
+ 1115 01f8 7369676E 		.ascii	"signed char\000"
  1115      65642063 
  1115      68617200 
  1116              	.LASF19:
- 1117 0200 5F5F7072 		.ascii	"__process_stack_end__\000"
+ 1117 0204 5F5F7072 		.ascii	"__process_stack_end__\000"
  1117      6F636573 
  1117      735F7374 
  1117      61636B5F 
  1117      656E645F 
  1118              	.LASF25:
- 1119 0216 5F5F696E 		.ascii	"__init_array_start\000"
+ 1119 021a 5F5F696E 		.ascii	"__init_array_start\000"
  1119      69745F61 
  1119      72726179 
  1119      5F737461 
  1119      727400
  1120              	.LASF17:
- 1121 0229 5F5F6D61 		.ascii	"__main_stack_end__\000"
+ 1121 022d 5F5F6D61 		.ascii	"__main_stack_end__\000"
  1121      696E5F73 
  1121      7461636B 
  1121      5F656E64 
  1121      5F5F00
  1122              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.3 20130312 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccPCRoQT.s 			page 23
+ARM GAS  /tmp/ccK1Bihk.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 crt0.c
-     /tmp/ccPCRoQT.s:19     .text.__early_init:0000000000000000 $t
-     /tmp/ccPCRoQT.s:25     .text.__early_init:0000000000000000 __early_init
-     /tmp/ccPCRoQT.s:38     .text.__late_init:0000000000000000 $t
-     /tmp/ccPCRoQT.s:44     .text.__late_init:0000000000000000 __late_init
-     /tmp/ccPCRoQT.s:56     .text._default_exit:0000000000000000 $t
-     /tmp/ccPCRoQT.s:62     .text._default_exit:0000000000000000 _default_exit
-     /tmp/ccPCRoQT.s:75     .text.ResetHandler:0000000000000000 $t
-     /tmp/ccPCRoQT.s:81     .text.ResetHandler:0000000000000000 ResetHandler
-     /tmp/ccPCRoQT.s:402    .text.ResetHandler:0000000000000194 $d
+     /tmp/ccK1Bihk.s:19     .text.__early_init:0000000000000000 $t
+     /tmp/ccK1Bihk.s:25     .text.__early_init:0000000000000000 __early_init
+     /tmp/ccK1Bihk.s:38     .text.__late_init:0000000000000000 $t
+     /tmp/ccK1Bihk.s:44     .text.__late_init:0000000000000000 __late_init
+     /tmp/ccK1Bihk.s:56     .text._default_exit:0000000000000000 $t
+     /tmp/ccK1Bihk.s:62     .text._default_exit:0000000000000000 _default_exit
+     /tmp/ccK1Bihk.s:75     .text.ResetHandler:0000000000000000 $t
+     /tmp/ccK1Bihk.s:81     .text.ResetHandler:0000000000000000 ResetHandler
+     /tmp/ccK1Bihk.s:402    .text.ResetHandler:0000000000000194 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccPCRoQT.s:419    .text.ResetHandler:00000000000001cc $t
+     /tmp/ccK1Bihk.s:419    .text.ResetHandler:00000000000001cc $t
 
 UNDEFINED SYMBOLS
 main

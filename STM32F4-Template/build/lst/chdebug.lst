@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc6FAKK9.s 			page 1
+ARM GAS  /tmp/ccEWeuLD.s 			page 1
 
 
    1              		.syntax unified
@@ -28,8 +28,8 @@ ARM GAS  /tmp/cc6FAKK9.s 			page 1
   25 000b 01       		.uleb128 0x1
   26 000c 1B000000 		.4byte	.LASF12
   27 0010 01       		.byte	0x1
-  28 0011 A9000000 		.4byte	.LASF13
-  29 0015 D1000000 		.4byte	.LASF14
+  28 0011 D5000000 		.4byte	.LASF13
+  29 0015 64000000 		.4byte	.LASF14
   30 0019 00000000 		.4byte	.Ldebug_line0
   31 001d 02       		.uleb128 0x2
   32 001e 04       		.byte	0x4
@@ -42,30 +42,30 @@ ARM GAS  /tmp/cc6FAKK9.s 			page 1
   39 002b 03       		.uleb128 0x3
   40 002c 01       		.byte	0x1
   41 002d 06       		.byte	0x6
-  42 002e 0C010000 		.4byte	.LASF1
+  42 002e 10010000 		.4byte	.LASF1
   43 0032 03       		.uleb128 0x3
   44 0033 01       		.byte	0x1
   45 0034 08       		.byte	0x8
-  46 0035 8D000000 		.4byte	.LASF2
+  46 0035 B9000000 		.4byte	.LASF2
   47 0039 03       		.uleb128 0x3
   48 003a 02       		.byte	0x2
   49 003b 05       		.byte	0x5
-  50 003c 18010000 		.4byte	.LASF3
+  50 003c 1C010000 		.4byte	.LASF3
   51 0040 03       		.uleb128 0x3
   52 0041 02       		.byte	0x2
   53 0042 07       		.byte	0x7
-  54 0043 F9000000 		.4byte	.LASF4
+  54 0043 FD000000 		.4byte	.LASF4
   55 0047 03       		.uleb128 0x3
   56 0048 04       		.byte	0x4
   57 0049 05       		.byte	0x5
-ARM GAS  /tmp/cc6FAKK9.s 			page 2
+ARM GAS  /tmp/ccEWeuLD.s 			page 2
 
 
-  58 004a A0000000 		.4byte	.LASF5
+  58 004a CC000000 		.4byte	.LASF5
   59 004e 03       		.uleb128 0x3
   60 004f 04       		.byte	0x4
   61 0050 07       		.byte	0x7
-  62 0051 64000000 		.4byte	.LASF6
+  62 0051 90000000 		.4byte	.LASF6
   63 0055 03       		.uleb128 0x3
   64 0056 08       		.byte	0x8
   65 0057 05       		.byte	0x5
@@ -73,19 +73,19 @@ ARM GAS  /tmp/cc6FAKK9.s 			page 1
   67 005c 03       		.uleb128 0x3
   68 005d 08       		.byte	0x8
   69 005e 07       		.byte	0x7
-  70 005f 76000000 		.4byte	.LASF8
+  70 005f A2000000 		.4byte	.LASF8
   71 0063 03       		.uleb128 0x3
   72 0064 01       		.byte	0x1
   73 0065 02       		.byte	0x2
-  74 0066 CB000000 		.4byte	.LASF9
+  74 0066 F7000000 		.4byte	.LASF9
   75 006a 03       		.uleb128 0x3
   76 006b 04       		.byte	0x4
   77 006c 07       		.byte	0x7
-  78 006d 22010000 		.4byte	.LASF10
+  78 006d 26010000 		.4byte	.LASF10
   79 0071 03       		.uleb128 0x3
   80 0072 01       		.byte	0x1
   81 0073 08       		.byte	0x8
-  82 0074 9B000000 		.4byte	.LASF11
+  82 0074 C7000000 		.4byte	.LASF11
   83 0078 00       		.byte	0
   84              		.section	.debug_abbrev,"",%progbits
   85              	.Ldebug_abbrev0:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc6FAKK9.s 			page 1
  112 001a 03       		.uleb128 0x3
  113 001b 24       		.uleb128 0x24
  114 001c 00       		.byte	0
-ARM GAS  /tmp/cc6FAKK9.s 			page 3
+ARM GAS  /tmp/ccEWeuLD.s 			page 3
 
 
  115 001d 0B       		.uleb128 0xb
@@ -168,68 +168,68 @@ ARM GAS  /tmp/cc6FAKK9.s 			page 1
  143      6973696F 
  143      6E203139 
  143      36363135 
- 144              	.LASF6:
- 145 0064 6C6F6E67 		.ascii	"long unsigned int\000"
- 145      20756E73 
- 145      69676E65 
- 145      6420696E 
- 145      7400
- 146              	.LASF8:
- 147 0076 6C6F6E67 		.ascii	"long long unsigned int\000"
- 147      206C6F6E 
- 147      6720756E 
-ARM GAS  /tmp/cc6FAKK9.s 			page 4
+ 144              	.LASF14:
+ 145 0064 2F686F6D 		.ascii	"/home/thiago/Sources/STM32/STM32F4-Template\000"
+ 145      652F7468 
+ 145      6961676F 
+ 145      2F536F75 
+ 145      72636573 
+ 146              	.LASF6:
+ 147 0090 6C6F6E67 		.ascii	"long unsigned int\000"
+ 147      20756E73 
+ 147      69676E65 
+ARM GAS  /tmp/ccEWeuLD.s 			page 4
 
 
- 147      7369676E 
- 147      65642069 
- 148              	.LASF2:
- 149 008d 756E7369 		.ascii	"unsigned char\000"
- 149      676E6564 
- 149      20636861 
- 149      7200
- 150              	.LASF11:
- 151 009b 63686172 		.ascii	"char\000"
- 151      00
- 152              	.LASF5:
- 153 00a0 6C6F6E67 		.ascii	"long int\000"
- 153      20696E74 
+ 147      6420696E 
+ 147      7400
+ 148              	.LASF8:
+ 149 00a2 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 149      206C6F6E 
+ 149      6720756E 
+ 149      7369676E 
+ 149      65642069 
+ 150              	.LASF2:
+ 151 00b9 756E7369 		.ascii	"unsigned char\000"
+ 151      676E6564 
+ 151      20636861 
+ 151      7200
+ 152              	.LASF11:
+ 153 00c7 63686172 		.ascii	"char\000"
  153      00
- 154              	.LASF13:
- 155 00a9 2E2F4368 		.ascii	"./ChibiOS/os/kernel/src/chdebug.c\000"
- 155      6962694F 
- 155      532F6F73 
- 155      2F6B6572 
- 155      6E656C2F 
- 156              	.LASF9:
- 157 00cb 5F426F6F 		.ascii	"_Bool\000"
- 157      6C00
- 158              	.LASF14:
- 159 00d1 2F686F6D 		.ascii	"/home/thiago/workspace/STM32F4-Template\000"
- 159      652F7468 
- 159      6961676F 
- 159      2F776F72 
- 159      6B737061 
+ 154              	.LASF5:
+ 155 00cc 6C6F6E67 		.ascii	"long int\000"
+ 155      20696E74 
+ 155      00
+ 156              	.LASF13:
+ 157 00d5 2E2F4368 		.ascii	"./ChibiOS/os/kernel/src/chdebug.c\000"
+ 157      6962694F 
+ 157      532F6F73 
+ 157      2F6B6572 
+ 157      6E656C2F 
+ 158              	.LASF9:
+ 159 00f7 5F426F6F 		.ascii	"_Bool\000"
+ 159      6C00
  160              	.LASF4:
- 161 00f9 73686F72 		.ascii	"short unsigned int\000"
+ 161 00fd 73686F72 		.ascii	"short unsigned int\000"
  161      7420756E 
  161      7369676E 
  161      65642069 
  161      6E7400
  162              	.LASF1:
- 163 010c 7369676E 		.ascii	"signed char\000"
+ 163 0110 7369676E 		.ascii	"signed char\000"
  163      65642063 
  163      68617200 
  164              	.LASF3:
- 165 0118 73686F72 		.ascii	"short int\000"
+ 165 011c 73686F72 		.ascii	"short int\000"
  165      7420696E 
  165      7400
  166              	.LASF10:
- 167 0122 73697A65 		.ascii	"sizetype\000"
+ 167 0126 73697A65 		.ascii	"sizetype\000"
  167      74797065 
  167      00
  168              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.3 20130312 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/cc6FAKK9.s 			page 5
+ARM GAS  /tmp/ccEWeuLD.s 			page 5
 
 
 DEFINED SYMBOLS
